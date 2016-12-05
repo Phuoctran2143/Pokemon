@@ -1,6 +1,8 @@
 package poke.model;
 
-public class Electric
+public interface Electric
 {
-
+	public int staticZap();
+	public int thunder();
+	
 }
