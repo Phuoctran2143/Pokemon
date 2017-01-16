@@ -1,6 +1,7 @@
 package poke.model;
 
-public class Rock
+public interface Rock
 {
-
+	public int rockThrow();
+	public int rockTomb();
 }

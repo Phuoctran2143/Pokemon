@@ -1,6 +1,7 @@
 package poke.model;
 
-public class Grass
+public interface Grass
 {
-
+	public int vineAttack();
+	public int frenzyPlant();
 }

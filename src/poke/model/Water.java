@@ -1,6 +1,7 @@
 package poke.model;
 
-public class Water
+public interface Water
 {
-
+	public int shootWater();
+	public int bubbleAttack();
 }
